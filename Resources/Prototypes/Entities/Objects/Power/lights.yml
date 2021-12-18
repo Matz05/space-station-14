@@ -90,3 +90,17 @@
   - type: Sprite
     sprite:  Objects/Power/light_tube.rsi
     state: normal
+
+- type: entity
+  parent: BaseLightbulb
+  name: fluorescent double light tube
+  id: LightTubeDouble
+  description: Two fluorescent tubes clipped together.
+  components:
+  - type: LightBulb
+    bulb: TubeDouble
+    color: "#FFE4CE" # 5000K color temp
+    PowerUse: 80 # Double the usage of a single fluorescent tube
+  - type: Sprite
+    sprite:  Objects/Power/light_tube_double.rsi
+    state: normal

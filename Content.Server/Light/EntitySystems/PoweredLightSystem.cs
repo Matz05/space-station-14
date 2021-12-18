@@ -70,6 +70,7 @@ namespace Content.Server.Light.EntitySystems
                 {
                     LightBulbType.Bulb => "LightBulb",
                     LightBulbType.Tube => "LightTube",
+                    LightBulbType.TubeDouble => "LightTubeDouble",
                     _ => throw new ArgumentOutOfRangeException()
                 };
 

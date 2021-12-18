@@ -23,5 +23,6 @@ namespace Content.Shared.Light
     {
         Bulb,
         Tube,
+        TubeDouble,
     }
 }
